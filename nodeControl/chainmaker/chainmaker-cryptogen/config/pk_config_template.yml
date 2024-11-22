@@ -1,0 +1,27 @@
+pk_config:
+#    pk_algo: RSA2048
+    pk_algo: ecc_p256
+#    pk_algo: sm2
+    hash_algo: SHA256
+    #pkcs11配置
+    pkcs11:
+      enabled: false
+      library: /usr/local/lib64/pkcs11/libupkcs11.so
+      label: HSM
+      password: 11111111
+      session_cache_size: 10
+      hash: "SHA256" # hash algorithm used to compute SKI
+
+    # Admin配置
+    admin:
+      count: 5
+    # 节点证书配置
+    node:
+      - count: 4
+    user:
+      - type: client
+        # 普通用户证书数量
+        count: 1
+#      - type: light
+#        # 轻节点用户证书数量
+#        count: 4

@@ -1,0 +1,666 @@
+{
+  "conflict_seeds": [
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "findByFileHash",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 1,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "max_similarity": 1,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "slowFind",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 1,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "findByFileHash",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": []
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "max_similarity": 1,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "max_similarity": 1,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "slowFind",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 1,
+      "mutability": true
+    }
+  ],
+  "mutate_seeds": [
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "findByFileHash",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": [
+          "fact_bytes#false"
+        ]
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "save",
+        "function_input": {
+          "file_hash": 0,
+          "file_name": "string",
+          "time": 0
+        },
+        "value_paths": [
+          [
+            "time"
+          ],
+          [
+            "file_hash"
+          ],
+          [
+            "file_name"
+          ]
+        ],
+        "read_related_value_paths": [],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "slowFind",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "findByFileHash",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": []
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": [
+          "fact_bytes#false"
+        ]
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": [
+          "fact_bytes#false"
+        ]
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    },
+    {
+      "seed_one": {
+        "function_name": "resetFact",
+        "function_input": {
+          "file_hash": 0
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_set": [
+          "fact_bytes#0"
+        ],
+        "write_set": [
+          "fact_bytes#0"
+        ]
+      },
+      "seed_two": {
+        "function_name": "slowFind",
+        "function_input": {
+          "file_hash": false
+        },
+        "value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "read_related_value_paths": [
+          [
+            "file_hash"
+          ]
+        ],
+        "write_related_value_paths": [],
+        "read_set": [
+          "fact_bytes#false"
+        ],
+        "write_set": []
+      },
+      "max_similarity": 0.6875,
+      "mutability": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+This repository is the test scripts for demo contracts.
